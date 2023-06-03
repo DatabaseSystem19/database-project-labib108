@@ -125,4 +125,3 @@ SELECT * FROM Orders WHERE customer_name IS NULL;
 SELECT city FROM Customers UNION ALL SELECT city FROM Suppliers;
 SELECT product_name FROM Products UNION ALL SELECT p.product_name FROM Order_Items oi JOIN Products p ON oi.product_id = p.product_id;
 
---intersection operation
